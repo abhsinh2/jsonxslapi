@@ -1,0 +1,8 @@
+{
+    "rules" : {
+        "main": "<names>{names}</names>",
+        "names": {
+            "main": "<name>{$}</name>"
+        }
+    }
+}

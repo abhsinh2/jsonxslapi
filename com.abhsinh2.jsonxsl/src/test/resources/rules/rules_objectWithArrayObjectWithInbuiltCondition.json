@@ -1,0 +1,12 @@
+{
+    "rules" : {
+        "main": "<root>{root}</root>",
+        "root": {
+        	"main": "<name>{$name}</name><addresses>{addresses}</addresses>",
+        	"addresses": {
+	        	"condition": "eq({$city},'Bangalore')",
+	            "main": "<city>{$city}</city><zip>{$zip}</zip>"
+	        }
+        }        
+    }
+}

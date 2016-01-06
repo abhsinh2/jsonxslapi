@@ -1,0 +1,15 @@
+{
+	"root": {
+		"name": "test1",
+		"addresses": [
+			{
+				"city": "Bangalore",
+				"zip": 560001
+			},
+			{
+				"city": "Delhi",
+				"zip": 110001
+			}
+		]
+	}
+}

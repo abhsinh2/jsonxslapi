@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="jsonxsl">
+<test verbose="2"
+		name="jsonxsl"
+		annotations="JDK">
+		<classes>
+			<class name="com.cisco.xmp.jsonxsl.test.JsonUtilityTests" />
+			<class name="com.cisco.xmp.jsonxsl.test.JsonXSLTTests" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,12 @@
+{
+    "rules" : {
+        "main": "<root>{root}</root>",
+        "root": {
+        	"condition": "function isName(x, y){var a = JSON.parse(x); return a.name == 'test1';}",
+            "main": "<name>{$name}</name><address>{address}</address>",
+            "address": {
+            	"main": "<city>{$city}</city><zip>{$zip}</zip>"
+            }
+        }
+    }
+}

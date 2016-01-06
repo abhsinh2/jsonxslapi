@@ -1,0 +1,11 @@
+{
+    "rules" : {
+        "main": "<root>{root}</root>",
+        "root": {
+            "main": "<name>{$name}</name><cities>{city}</cities>",
+            "city": {
+            	"main": "<city>{$}</city>"
+            }
+        }
+    }
+}

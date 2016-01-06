@@ -1,0 +1,12 @@
+{
+    "rules" : {
+    	"parameters": ["age"],
+        "main": "<root>{root}</root>",
+        "root": {
+            "main": "<name>{$name}</name><age>{$$age}</age><address>{address}</address>",
+            "address": {
+            	"main": "<city>{$city}</city><zip>{$zip}</zip>"
+            }
+        }
+    }
+}

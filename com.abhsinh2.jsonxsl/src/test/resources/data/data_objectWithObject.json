@@ -1,0 +1,9 @@
+{
+	"root": {
+		"name": "test1",
+		"address": {
+			"city": "Bangalore",
+			"zip": 560001
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+   "rules" : {
+       "main": "<Machines>{Machines}</Machines>",
+       "Machines": "{hosts}",
+       "hosts": {
+           "main": "<Machine><name>{$host_name}</name><type>host</type><parent>{$$parent}</parent><size>10</size></Machine>"
+       }
+   }
+}

@@ -1,0 +1,8 @@
+{
+    "rules" : {
+        "main": "<root>{root}</root>",
+        "root": {
+            "main": "<name>{$name}</name><age>{$age}</age>"
+        }
+    }
+}
